@@ -6,4 +6,11 @@ A “LAMP” stack is a group of open source software that is typically installe
 
 STEP ONE: Create and EC2 instance on AWS. Using the AWS Management Console, we can set up an ubuntu server in our most preferred region and connect to the EC2 instance using SSH cryptographic key known as PEM(Privacy Enhanced Mail) file.
 
-![Ec2 Creation](./Images/Ec2_Creation.PNG)
+1_![Ec2 Creation](./Images/Ec2_Creation.PNG)
+2_The security group was configured with the following inbound rules:
+
+- Allow traffic on port 80 (HTTP) with source from anywhere on the internet.
+- Allow traffic on port 443 (HTTPS) with source from anywhere on the internet.
+- Allow traffic on port 22 (SSH) with source from any IP address. This is opened by default.
+- ![Security Rules](./images/2nd Stage.png)
+
