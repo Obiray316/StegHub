@@ -6,4 +6,4 @@ A “LAMP” stack is a group of open source software that is typically installe
 
 STEP ONE: Create and EC2 instance on AWS. Using the AWS Management Console, we can set up an ubuntu server in our most preferred region and connect to the EC2 instance using SSH cryptographic key known as PEM(Privacy Enhanced Mail) file.
 
-![LAMP STACK](./Images/Ec2 Creation.png)
+![LAMP STACK](./StegHub/Ec2 Creation.png)
