@@ -12,6 +12,6 @@ STEP ONE: Create and EC2 instance on AWS. Using the AWS Management Console, we c
 - Allow traffic on port 80 (HTTP) with source from anywhere on the internet.
 - Allow traffic on port 443 (HTTPS) with source from anywhere on the internet.
 - Allow traffic on port 22 (SSH) with source from any IP address. This is opened by default.
-- 
+2.
 - ![Security_Rule](./Images/2nd_Stage.PNG)
 
