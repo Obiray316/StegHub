@@ -20,5 +20,7 @@ STEP ONE: Create and EC2 instance on AWS. Using the AWS Management Console, we c
 - The private ssh key that got downloaded was located, permission was changed for the private key file and then used to connect to the instance by running
 - chmod 400 "Obiray.pem"
 - ssh -i "Obiray.pem" ubuntu@ec2-13-60-195-93.eu-north-1.compute.amazonaws.com
+- Where username=ubuntu and public ip address=172.31.42.96
+- [Connect to instance](./Images/First_Lunch_to_the_server.PNG)
 
 
