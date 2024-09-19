@@ -16,5 +16,9 @@ STEP ONE: Create and EC2 instance on AWS. Using the AWS Management Console, we c
 - 3
 - The default VPC and Subnet was used for the networking configuration.
 - ![Default Network](./Images/VPC_Network.PNG)
+- 4
+- The private ssh key that got downloaded was located, permission was changed for the private key file and then used to connect to the instance by running
+- chmod 400 "Obiray.pem"
+- ssh -i "Obiray.pem" ubuntu@ec2-13-60-195-93.eu-north-1.compute.amazonaws.com
 
 
