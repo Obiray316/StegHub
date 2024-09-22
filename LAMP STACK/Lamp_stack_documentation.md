@@ -22,5 +22,13 @@ STEP ONE: Create and EC2 instance on AWS. Using the AWS Management Console, we c
 - ssh -i "Obiray.pem" ubuntu@ec2-13-60-195-93.eu-north-1.compute.amazonaws.com
 - Where username=ubuntu and public ip address=172.31.42.96 
 - ![Connect Instance](./Images/EC2_LUNCH.PNG)
+- Step 1 - Install Apache and Update the Firewall
+- 1. Update and upgrade list of packages in package manager
+     sudo apt update
+     sudo apt upgrade -y
+
+  
+
+
 
 
