@@ -23,12 +23,13 @@ STEP ONE: Create and EC2 instance on AWS. Using the AWS Management Console, we c
 - Where username=ubuntu and public ip address=172.31.42.96 
 - ![Connect Instance](./Images/EC2_LUNCH.PNG)
 - Step 1 - Install Apache and Update the Firewall
-- 1. Update and upgrade list of packages in package manager
+- . Update and upgrade list of packages in package manager
      sudo apt update
      sudo apt upgrade -y
 - ![Sudo Apt Update](./Images/Sudo_apt_update.PNG)
 - ![Sudo Apt2 -y Upgrade](./Images/Starting_apt2_services.PNG)
-- 
+- 5. Test with the public IP address if the Apache HTTP server can respond to request from the internet using the url on a browser.
+- ![Apache Default Page](./Images/Apache_Lunch_on_browser.PNG)
 
   
 
