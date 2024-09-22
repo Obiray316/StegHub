@@ -29,6 +29,7 @@ STEP ONE: Create and EC2 instance on AWS. Using the AWS Management Console, we c
 - ![Sudo Apt Update](./Images/Sudo_apt_update.PNG)
 - ![Sudo Apt2 -y Upgrade](./Images/Starting_apt2_services.PNG)
 - 5. Test with the public IP address if the Apache HTTP server can respond to request from the internet using the url on a browser.
+     http:// 13.60.195.93
 - ![Apache Default Page](./Images/Apache_Lunch_on_browser.PNG)
 
   
