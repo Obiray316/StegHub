@@ -26,6 +26,9 @@ STEP ONE: Create and EC2 instance on AWS. Using the AWS Management Console, we c
 - 1. Update and upgrade list of packages in package manager
      sudo apt update
      sudo apt upgrade -y
+- ![Sudo Apt Update](./Images/Sudo_apt_update.PNG)
+- ![Sudo Apt2 -y Upgrade](./Images/starting_apt2_services.PNG)
+- 
 
   
 
